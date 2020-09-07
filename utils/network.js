@@ -8,15 +8,10 @@ import {
 const app = getApp();
 /**
  * 接口请求基类方法
- * @param method 请求方法 必填
- * @param url 请求路径 必填
- * @param data 请求参数
- * @param header 请求头 选填
- * @returns {Promise}
  */
 const request = function (config) {
-  const isHeader = config.header
-  const headers = {}
+  const isHeader = config.header //是否携带token
+  const headers = {} //头部
   headers['Content-Type'] = 'application/json'
   if (isHeader) {
     headers['Authorization'] = 'Bearer ' + wx.getStorageSync('token')
@@ -36,13 +31,16 @@ const request = function (config) {
         //判断状态码
         switch (code) {
           case 200:
+            //请求正常
             resolve(response.success)
             break;
           case 401:
+            //登录过期
             app.wxLogin()
             reject(response.fail)
             break;
           case 500:
+            //服务器错误
             wx.showToast({
               title: '服务器内部错误！',
               icon: 'none',
@@ -51,7 +49,7 @@ const request = function (config) {
             reject(response.fail)
             break;
           default:
-            console.log(res)
+            //其他状态码
             wx.showToast({
               title: `请求出错，请重试`,
               icon: 'none',
