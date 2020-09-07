@@ -1,2 +1,3 @@
-# mini-program-template
-微信小程序模板，封装了网络请求接口和一些常用方法
+# 项目介绍
+- 本项目使用了Vant Weapp UI 组件库，地址：https://youzan.github.io/vant-weapp/#/intro
+

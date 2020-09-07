@@ -1,0 +1,188 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"scopeDataCheck": false,
+		"coverView": true,
+		"es6": true,
+		"postcss": true,
+		"compileHotReLoad": false,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"autoAudits": false,
+		"newFeature": true,
+		"uglifyFileName": false,
+		"uploadWithSourceMap": true,
+		"useIsolateContext": true,
+		"nodeModules": false,
+		"enhance": false,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false,
+		"showShadowRootInWxmlPanel": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.0",
+	"appid": "wx0ab1ef607c2ac752",
+	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A8%A1%E6%9D%BF",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "门店详情",
+					"pathName": "pages/user/storeDetail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "首页-骑手",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "我的电池-骑手",
+					"pathName": "pages/user/myBattery/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "个人中心-骑手&经销商",
+					"pathName": "pages/user/personalCenter/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "实名认证-骑手",
+					"pathName": "pages/user/verifie/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "我的订单-骑手",
+					"pathName": "pages/user/myOrder/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "我的订单-经销商",
+					"pathName": "pages/admin/order/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "我的电池-经销商",
+					"pathName": "pages/admin/battery/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "我的钱包-经销商",
+					"pathName": "pages/user/storeWallet/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页-经销商",
+					"pathName": "pages/store/home/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "登录页面",
+					"pathName": "pages/user/login/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "扫码进入页面",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "附近门店-骑手",
+					"pathName": "pages/user/storeHome/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 13,
+					"name": "扫码下单",
+					"pathName": "pages/index/index",
+					"query": "id=777",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/common/userGuide/index",
+					"pathName": "pages/common/userGuide/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "评论",
+					"pathName": "pages/user/comment/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/common/invite/index",
+					"pathName": "pages/common/invite/index",
+					"scene": null
+				}
+			]
+		}
+	}
+}
